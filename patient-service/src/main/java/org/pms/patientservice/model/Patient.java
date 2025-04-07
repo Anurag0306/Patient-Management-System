@@ -14,7 +14,7 @@ import java.util.UUID;
 @Setter
 @Entity
 public class Patient {
-
+    //Tables values // Primary key is UUID id
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;

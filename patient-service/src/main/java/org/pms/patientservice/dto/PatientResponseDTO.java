@@ -6,6 +6,7 @@ public class PatientResponseDTO {
     private String name;
     private String email;
     private String address;
+    private String dateOfBirth;
 
     public String getId() {
         return id;
@@ -47,6 +48,6 @@ public class PatientResponseDTO {
         this.dateOfBirth = dateOfBirth;
     }
 
-    private String dateOfBirth;
+
 
 }

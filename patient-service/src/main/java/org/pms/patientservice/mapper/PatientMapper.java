@@ -3,6 +3,8 @@ package org.pms.patientservice.mapper;
 import org.pms.patientservice.dto.PatientResponseDTO;
 import org.pms.patientservice.model.Patient;
 
+import java.time.LocalDate;
+
 public class PatientMapper {
 
     public static PatientResponseDTO toDTO(Patient patient){
@@ -15,5 +17,14 @@ public class PatientMapper {
         return patientDTO;
 
 
+    }
+
+    public static Patient toPatient( PatientResponseDTO patientResponseDTO){
+        Patient patient = new Patient();
+        patient.setName(patientResponseDTO.getName());
+        patient.setAddress(patientResponseDTO.getAddress());
+        patient.setEmail(patientResponseDTO.getEmail());
+        patient.setDateOfBirth(LocalDate.parse(patientResponseDTO.getDateOfBirth()));
+        patient.setRegisteredDate(LocalDate.parse(patientResponseDTO.getRegisteredDate()));
     }
 }

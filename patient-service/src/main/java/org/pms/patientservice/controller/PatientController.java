@@ -2,7 +2,6 @@ package org.pms.patientservice.controller;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
-import jakarta.validation.Valid;
 import jakarta.validation.groups.Default;
 import org.pms.patientservice.dto.PatientRequestDTO;
 import org.pms.patientservice.dto.PatientResponseDTO;

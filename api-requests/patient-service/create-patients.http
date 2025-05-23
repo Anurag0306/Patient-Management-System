@@ -3,11 +3,10 @@ POST http://localhost:4000/patients
 Content-Type: application/json
 
 {
-  "name": "Anurag",
-  "email": "",
-  "address": "hello street 123",
-  "dateOfBirth": "2000-09-09",
+  "name": "AnuragJiKafkaa",
+  "email": "text@anurakkafkaa.com",
+  "address": "hello street 143",
+  "dateOfBirth": "2000-09-29",
   "registeredDate": "2025-04-28"
 }
 
-###

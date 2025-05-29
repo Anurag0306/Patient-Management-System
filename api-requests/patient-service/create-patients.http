@@ -3,10 +3,11 @@ POST http://localhost:4000/patients
 Content-Type: application/json
 
 {
-  "name": "AnuragJiKafkaa",
-  "email": "text@anurakkafkaa.com",
+  "name": "testing",
+  "email": "testing123@gmail.com",
   "address": "hello street 143",
   "dateOfBirth": "2000-09-29",
   "registeredDate": "2025-04-28"
 }
 
+### It will create a new patients

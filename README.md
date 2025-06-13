@@ -86,7 +86,7 @@ mvn test
 
 ## 📬 Contact
 
-Made with ❤️ by [Your Name](https://github.com/your-username)  
+Made with ❤️ by [Karamveer Singh](https://github.com/Anurag0306)  
 Feel free to reach out for collaboration or queries!
 
 ---

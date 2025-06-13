@@ -2,7 +2,7 @@
 
 **Empowering Healthcare Through Seamless Patient Care**
 
-![Last Commit](https://img.shields.io/github/last-commit/your-username/your-repo-name?label=last%20commit)
+
 ![Java](https://img.shields.io/badge/java-94.3%25-blue)
 ![Languages](https://img.shields.io/badge/languages-3-blue)
 
